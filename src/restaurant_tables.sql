@@ -8,7 +8,7 @@ create table business_rest as
   where categories like "%restaurant%";
 
 # Restaurant reviews
-drop view if exists review_rest;
+drop table if exists review_rest;
 create view review_rest as
   select *
   from review
