@@ -1,0 +1,5 @@
+*.tar
+yelp_dataset
+src/data
+*.DS_Store
+*.ipynb*
